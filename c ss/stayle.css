@@ -37,46 +37,57 @@ img {
 .ww {
     color: darkgray;
 }
-div h1.Free {
-    width: 100%;
-    max-width: 100%;
-    background: #d2e1ee;
-    font-family: "eLilita On", Helvetica, sans-serif;
-    display: inline-flex;
-    list-style: none;
-    justify-content: center;
-    padding: 20px;
-    font-size: 16px;
-}
-div.header-action {
-    margin-left: 400px;
-    width: 100%;
-    display: flex;
-    align-items: center;
+section.data {
+    background-color: #d2e1ee;
+    text-align: center;
 }
 
 header {
+    background: #fff7d8;
     margin: 0 auto;
     width: 100%;
     max-width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #fff7d8;
-    width: 100%;
-    padding: 0px 36px;
-    background-attachment: fixed;
-    justify-content: center;
 }
-header nav ul {
-    padding: 16px 16px;
-    width: 100%;
-    font-family: "Rubik", Helvetica, sans-serif;
-    font-size: 16px;
-    align-items: center;
+
+.logo a {
+    color: #0C0102;
     display: inline-flex;
-    list-style: none;
-    gap: 32px;
+    align-items: center;
+    gap: 5px;
+    font-family: "Rubik", Helvetica, sans-serif;
+    font-size: 40px;
+    font-weight: 400;
+}
+
+ul.laft {
+    margin-right: 200px;
+}
+.header-r {
+    display: flex;
+    align-items: center;
+    height: 100px;
+}
+
+.header-r nav ul li {
+    display: inline-block;
+    margin-right: 32px;
+    position: relative;
+}
+
+.header-r nav ul li a {
+    font-size: 16px;
+    font-weight: 800;
+    color: #0C0102;
+    font-family: "Rubik", Helvetica, sans-serif;
+    line-height: 70px;
+}
+
+.header-r nav ul li a:hover {
+    color: white;
+    border-bottom: 2px solid green;
 }
 section.data {
     position: fixed !important;
