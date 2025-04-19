@@ -176,28 +176,16 @@ a.closemenu img {
     gap: 32px;
 }
 .hero {
-    margin-top: 90px;
     height: 600px;
     background-color: green;
     background: url(../imges/c837a6_92e0451a84214884a2f4efe4226d6c2f~mv2.webp) center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    padding-top: 120px;
-    font-family: "Roboto", Helvetica, sans-serif;
-    display: flex;
 }
-div.hero-l {
+div.hero-l,
+.hero-r {
     width: 50%;
 }
-div.shopblend {
-    margin-top: 33%;
 
-}
-div.shopblend {
-    width: 50%;
-    text-align: end !important;
-}
-a.shopblends {
+a.hero-r {
     background: #fff7d8;
     font-size: 80px;
     font-family: "Roboto", Helvetica, sans-serif;
@@ -206,7 +194,7 @@ a.shopblends {
     border: 1px solid #0C0102;
 }
 
-a.shopblends:hover {
+a.hero-r:hover {
     background-color: green;
     color: white;
 }
@@ -1003,9 +991,6 @@ footer h5 {
     ul.cards {
         display: none;
     }
-    a.shopblend {
-       display: none;
-    }
     .our-menu {
         padding: 64px 0;
     }
@@ -1068,9 +1053,7 @@ footer h5 {
     section.our-menu {
         padding-left: 40px;
     }
-    .hero {
-        margin-top: 0px;
-    }
+   
 }
 @media screen and (max-width: 768px) {
     section.hero  {
@@ -1091,25 +1074,9 @@ footer h5 {
     }
     div.hero-l h4 {
         font-size: 40px;
-        margin-bottom: 0;
-        margin-left: 0;
-        padding-left: 0;
-        justify-content: center !important;
     }
-    div.shopblend{
-        width: 30%;
-        margin-top: 38vh;
-        padding-right: 10vh;
-        margin-bottom: 40px;
-    }
-    a.shopblends {
-        background: #fff7d8;
-        font-size: 18px;
-        font-family: "Roboto", Helvetica, sans-serif;
-        padding: 10px 30px ;
-        color: #0C0102;
-        border: 1px solid #0C0102;
-    }
+  
+   
     .mo p {
         font-size: 20px;
         margin-bottom: 30px;
