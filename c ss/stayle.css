@@ -160,7 +160,6 @@ br.ppp {
 div.cart, div.re {
     display: inline-flex;
     align-items: center;
-    margin-left: 30px;
     color: #0C0102 !important;
 }
 .responsive-menu .cart {
@@ -176,9 +175,10 @@ a.closemenu img {
     gap: 32px;
 }
 .hero {
-    height: 600px;
-    background-color: green;
-    background: url(../imges/c837a6_92e0451a84214884a2f4efe4226d6c2f~mv2.webp) center;
+    height: 700px;
+    background: url(../imges/c837a6_92e0451a84214884a2f4efe4226d6c2f~mv2.webp) center no-repeat;
+    background-size: cover;
+    padding: 48px 0;
 }
 div.hero-l,
 .hero-r {
